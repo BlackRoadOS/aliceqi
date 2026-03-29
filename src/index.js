@@ -1,5 +1,6 @@
-
 {"index.html":"index.e13b40000a.html"}
+--145fab134b28a48a77c7c3de05713efdbeced6999bdec63eae017189f5af
+Content-Disposition: form-data; name="worker.js"
 
 var __create = Object.create;
 var __defProp = Object.defineProperty;
@@ -69,7 +70,7 @@ var require_Mime = __commonJS({
     };
     Mime.prototype.getType = function(path) {
       path = String(path);
-      let last = path.replace(/^.*[/\]/, "").toLowerCase();
+      let last = path.replace(/^.*[/\\]/, "").toLowerCase();
       let ext = last.replace(/^.*\./, "").toLowerCase();
       let hasPath = last.length < path.length;
       let hasDot = ext.length < last.length - 1;
